@@ -41,6 +41,7 @@ export default class DonatetBookScreen extends React.Component {
     console.log(this.state.requestedBookList);
     return (
       <View>
+      <MyHeader title='Exchange Item' />
         <FlatList
           keyExtractor={(item, index) => index.toString()}
           data={this.state.requestedBookList}
