@@ -56,7 +56,7 @@ export default class RequestBookScreen extends React.Component {
   render() {
     return (
       <View>
-        <MyHeader title="Request Book" />
+        <MyHeader title="Request Item"  />       
         <KeyboardAvoidingView style={styles.keyboardAvoidingViewStyle}>
           <TextInput
             style={styles.textInputStyle}
