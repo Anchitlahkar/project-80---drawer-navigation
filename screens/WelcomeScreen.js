@@ -183,7 +183,7 @@ export default class SearchScreen extends React.Component {
     return (
       <View style={styles.mainView}>
         <View style={styles.textContainer}>
-          <Text style={styles.text}>Book Santa</Text>
+          <Text style={styles.text}>Barter System</Text>
         </View>
 
         <Image
