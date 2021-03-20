@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 import {
   Text,
   View,
@@ -8,18 +8,19 @@ import {
   Image,
   KeyboardAvoidingView,
   FlatList,
-} from "react-native";
-import { MyHeader } from "../components/MyHeader";
-import db from "../config";
-import firebase from "firebase";
+} from 'react-native';
+import { MyHeader } from '../components/MyHeader';
+import db from '../config';
+import firebase from 'firebase';
 
 export default class SettingScreen extends React.Component {
-	render(){
-		return(
-			<View>
-				<Text>SettingScreen</Text>
-			</View>
-		);
-	}
+  render() {
+    return (
+      <View>
+        <MyHeader title="Setting" />
+
+        <Text>SettingScreen</Text>
+      </View>
+    );
+  }
 }
-  
